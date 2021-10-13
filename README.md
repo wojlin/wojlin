@@ -1,41 +1,49 @@
-
-# Hey, I'm Wojciech Linowski 👋
-
-#### about me:
-* I'm 20 years old
-* I live in Poland
-* I am a radio amateur
-
-
-#### I'm currently learning:
-* frontend
-* basics of pen testing
-* python
-* GNURadio
-* software defined radio
-
-#### languages and tools that I'm using:
-
-<div style="width:100%;display:block;">
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://en.wikipedia.org/wiki/HTML"><img alt="icon" width="35px" height="35px" src="static/images/html.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"><img alt="icon" width="35px" height="35px" src="static/images/js.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://en.wikipedia.org/wiki/CSS"><img alt="icon" width="35px" height="35px" src="static/images/css.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://leafletjs.com/"><img alt="icon" width="35px" height="35px" src="static/images/leaflet.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://en.wikipedia.org/wiki/Linux"><img alt="icon" width="35px" height="35px" src="static/images/linux.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://pop.system76.com/"><img alt="icon" width="35px" height="35px" src="static/images/popos.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://www.arduino.cc/"><img alt="icon" width="35px" height="35px" src="static/images/arduino.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://en.wikipedia.org/wiki/C%2B%2B"><img alt="icon" width="35px" height="35px" src="static/images/c.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://www.python.org/"><img alt="icon" width="35px" height="35px" src="static/images/python.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://flask.palletsprojects.com/en/2.0.x/"><img alt="icon" width="35px" height="35px" src="static/images/flask.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://matplotlib.org/"><img alt="icon" width="35px" height="35px" src="static/images/matplotlib.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://opencv.org/"><img alt="icon" width="35px" height="35px" src="static/images/opencv.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://www.gimp.org/"><img alt="icon" width="35px" height="35px" src="static/images/gimp.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://www.blender.org/"><img alt="icon" width="35px" height="35px" src="static/images/blender.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://github.com/"><img alt="icon" width="35px" height="35px" src="static/images/github.png" /></a>
-  <a style="display:inline-block; margin-left:5px;" target="_blank" href="https://codepen.io/"><img alt="icon" width="35px" height="35px" src="static/images/codepen.png" /></a>
-</div>
-
-<br/><br/>
-
-
-<p>my codepen: <a target="_blank" href="https://codepen.io/wojlin">https://codepen.io/wojlin</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ubuntu Terminal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+    <style>
+      @font-face {
+          font-family: Ubuntu;
+          src: url("static/fonts/Ubuntu-B.ttf");
+      }
+      @font-face {
+          font-family: Ubuntu_Mono;
+          src: url("static/fonts/UbuntuMono-B.ttf");
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+    <div id="terminal">
+      <section id="terminal_bar">
+        <div id="bar_buttons">
+          <button class="bar_button" id="bar_button_exit">&#10005;</button>
+          <button class="bar_button">&#9472;</button>
+          <button class="bar_button">&#9723;</button>
+        </div>
+        <p id="bar_user"></p>
+      </section>
+      <!-- Terminal Body -->
+      <section id="terminal_body">
+        <div id="terminal_body_content">
+        </div>
+        <div id="terminal_prompt">
+          <span id="terminal_prompt_user"></span>
+          <span id="terminal_prompt_location">~</span>
+          <span id="terminal_prompt_bling">$</span>
+          <input id="terminal_prompt_input"></input>
+          <span id="terminal_prompt_cursor"></span>
+        </div>
+      </section>
+    </div>
+    <script src='static/js/main.js'></script>
+  </main>
+  </body>
+</html>
+<!--eof-->
