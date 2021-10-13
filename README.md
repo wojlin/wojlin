@@ -1,15 +1,5 @@
 
 <link rel="stylesheet" type="text/css" href="https://github.com/wojlin/wojlin/blob/f736437a43ebbd124e03d331744f7cdca188a793/static/css/style.css"/>
-<style>
-  @font-face {
-      font-family: Ubuntu;
-      src: url("static/fonts/Ubuntu-B.ttf");
-  }
-  @font-face {
-      font-family: Ubuntu_Mono;
-      src: url("static/fonts/UbuntuMono-B.ttf");
-  }
-</style>
 <main id="container">
 <div id="terminal">
   <section id="terminal_bar">
