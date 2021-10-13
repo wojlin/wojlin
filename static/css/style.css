@@ -1,3 +1,12 @@
+  @font-face {
+      font-family: Ubuntu;
+      src: url("static/fonts/Ubuntu-B.ttf");
+  }
+  @font-face {
+      font-family: Ubuntu_Mono;
+      src: url("static/fonts/UbuntuMono-B.ttf");
+  }
+
 #container {
   font-family: Ubuntu;
   display: flex;
