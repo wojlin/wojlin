@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="static/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="https://github.com/wojlin/wojlin/blob/f736437a43ebbd124e03d331744f7cdca188a793/static/css/style.css"/>
 <style>
   @font-face {
       font-family: Ubuntu;
