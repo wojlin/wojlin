@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="https://github.com/wojlin/wojlin/blob/f736437a43ebbd124e03d331744f7cdca188a793/static/css/style.css"/>
+<link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
 <main id="container">
 <div id="terminal">
   <section id="terminal_bar">
@@ -23,6 +23,6 @@
     </div>
   </section>
 </div>
-<script src='static/js/main.js'></script>
+<script src='../static/js/main.js'></script>
 </main>
 
