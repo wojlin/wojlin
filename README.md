@@ -23,6 +23,6 @@
     </div>
   </section>
 </div>
-<script src='../static/js/main.js'></script>
+<script src='static/js/main.js'></script>
 </main>
 
